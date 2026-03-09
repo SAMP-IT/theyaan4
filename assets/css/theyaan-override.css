@@ -1,0 +1,21 @@
+/* theYaan Studio — Brand Overrides */
+/* Loaded after style.css in theyaan.html */
+
+/* Center the 7th product card */
+.service-area .row.pt-60 {
+  justify-content: center;
+}
+
+/* About section dark theme fix */
+.about-area .about-list li {
+  color: rgba(255,255,255,0.7);
+}
+.about-area .about-list li::before,
+.about-area .about-list li::marker {
+  color: #02D6E4;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 570 340" fill="none">
+  <defs>
+    <linearGradient id="hc-bg" x1="0" y1="0" x2="570" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0a1628"/>
+      <stop offset="100%" stop-color="#0f2847"/>
+    </linearGradient>
+    <linearGradient id="hc-accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#02D6E4"/>
+      <stop offset="100%" stop-color="#0094FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="570" height="340" fill="url(#hc-bg)"/>
+  <!-- Grid pattern -->
+  <g opacity="0.06" stroke="#02D6E4" stroke-width="0.5">
+    <line x1="0" y1="40" x2="570" y2="40"/><line x1="0" y1="80" x2="570" y2="80"/>
+    <line x1="0" y1="120" x2="570" y2="120"/><line x1="0" y1="160" x2="570" y2="160"/>
+    <line x1="0" y1="200" x2="570" y2="200"/><line x1="0" y1="240" x2="570" y2="240"/>
+    <line x1="0" y1="280" x2="570" y2="280"/><line x1="0" y1="320" x2="570" y2="320"/>
+    <line x1="40" y1="0" x2="40" y2="340"/><line x1="80" y1="0" x2="80" y2="340"/>
+    <line x1="120" y1="0" x2="120" y2="340"/><line x1="160" y1="0" x2="160" y2="340"/>
+    <line x1="200" y1="0" x2="200" y2="340"/><line x1="240" y1="0" x2="240" y2="340"/>
+    <line x1="280" y1="0" x2="280" y2="340"/><line x1="320" y1="0" x2="320" y2="340"/>
+    <line x1="360" y1="0" x2="360" y2="340"/><line x1="400" y1="0" x2="400" y2="340"/>
+    <line x1="440" y1="0" x2="440" y2="340"/><line x1="480" y1="0" x2="480" y2="340"/>
+    <line x1="520" y1="0" x2="520" y2="340"/><line x1="560" y1="0" x2="560" y2="340"/>
+  </g>
+  <!-- Heartbeat line -->
+  <polyline points="40,200 120,200 160,200 180,200 200,140 220,260 240,120 260,240 280,180 300,200 340,200 380,200 420,200 440,200 460,140 480,260 500,200 530,200"
+    stroke="url(#hc-accent)" stroke-width="2.5" fill="none" opacity="0.6"/>
+  <!-- Central heart + cross icon -->
+  <g transform="translate(245,110)">
+    <circle cx="40" cy="40" r="48" fill="#02D6E4" opacity="0.1"/>
+    <circle cx="40" cy="40" r="36" fill="#02D6E4" opacity="0.15"/>
+    <!-- Heart -->
+    <path d="M40 62C40 62 18 46 18 32C18 24 24 18 32 18C36 18 39 20 40 23C41 20 44 18 48 18C56 18 62 24 62 32C62 46 40 62 40 62Z"
+      fill="url(#hc-accent)" opacity="0.9"/>
+    <!-- Cross inside heart -->
+    <rect x="36" y="28" width="8" height="20" rx="1.5" fill="white" opacity="0.9"/>
+    <rect x="30" y="34" width="20" height="8" rx="1.5" fill="white" opacity="0.9"/>
+  </g>
+  <!-- Floating data nodes -->
+  <circle cx="100" cy="90" r="6" fill="#02D6E4" opacity="0.4"/>
+  <circle cx="460" cy="70" r="4" fill="#0094FF" opacity="0.3"/>
+  <circle cx="480" cy="260" r="5" fill="#02D6E4" opacity="0.35"/>
+  <circle cx="90" cy="260" r="4" fill="#0094FF" opacity="0.25"/>
+  <circle cx="380" cy="100" r="3" fill="#02D6E4" opacity="0.3"/>
+  <!-- Connection lines -->
+  <line x1="100" y1="90" x2="245" y2="130" stroke="#02D6E4" stroke-width="0.5" opacity="0.15"/>
+  <line x1="460" y1="70" x2="325" y2="130" stroke="#0094FF" stroke-width="0.5" opacity="0.15"/>
+  <line x1="480" y1="260" x2="325" y2="170" stroke="#02D6E4" stroke-width="0.5" opacity="0.12"/>
+  <line x1="90" y1="260" x2="245" y2="170" stroke="#0094FF" stroke-width="0.5" opacity="0.12"/>
+  <!-- Subtle glow -->
+  <circle cx="285" cy="150" r="80" fill="#02D6E4" opacity="0.04"/>
+</svg>

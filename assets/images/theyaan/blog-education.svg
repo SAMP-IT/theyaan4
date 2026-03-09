@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 373 268" fill="none">
+  <defs>
+    <linearGradient id="be-bg" x1="0" y1="0" x2="373" y2="268" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0a1628"/>
+      <stop offset="100%" stop-color="#0a1a0a"/>
+    </linearGradient>
+    <linearGradient id="be-accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00C853"/>
+      <stop offset="100%" stop-color="#7C4DFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="373" height="268" fill="url(#be-bg)"/>
+  <!-- Subtle hex grid -->
+  <g opacity="0.05" stroke="#00C853" stroke-width="0.5">
+    <polygon points="60,30 90,15 120,30 120,60 90,75 60,60"/>
+    <polygon points="120,30 150,15 180,30 180,60 150,75 120,60"/>
+    <polygon points="180,30 210,15 240,30 240,60 210,75 180,60"/>
+    <polygon points="240,30 270,15 300,30 300,60 270,75 240,60"/>
+    <polygon points="90,75 120,60 150,75 150,105 120,120 90,105"/>
+    <polygon points="150,75 180,60 210,75 210,105 180,120 150,105"/>
+    <polygon points="210,75 240,60 270,75 270,105 240,120 210,105"/>
+    <polygon points="120,120 150,105 180,120 180,150 150,165 120,150"/>
+    <polygon points="180,120 210,105 240,120 240,150 210,165 180,150"/>
+    <polygon points="150,165 180,150 210,165 210,195 180,210 150,195"/>
+    <polygon points="210,165 240,150 270,165 270,195 240,210 210,195"/>
+    <polygon points="90,195 120,180 150,195 150,225 120,240 90,225"/>
+    <polygon points="180,210 210,195 240,210 240,240 210,255 180,240"/>
+    <polygon points="240,210 270,195 300,210 300,240 270,255 240,240"/>
+  </g>
+  <!-- Bloom's taxonomy pyramid -->
+  <g transform="translate(100,45)">
+    <!-- Pyramid layers from top to bottom -->
+    <polygon points="86,10 60,50 112,50" fill="#7C4DFF" opacity="0.2" stroke="#7C4DFF" stroke-width="1"/>
+    <polygon points="60,55 40,90 132,90 112,55" fill="#7C4DFF" opacity="0.18" stroke="#7C4DFF" stroke-width="0.8"/>
+    <polygon points="40,95 20,130 152,130 132,95" fill="#00C853" opacity="0.18" stroke="#00C853" stroke-width="0.8"/>
+    <polygon points="20,135 0,170 172,170 152,135" fill="#00C853" opacity="0.15" stroke="#00C853" stroke-width="0.8"/>
+    <!-- Labels -->
+    <text x="86" y="38" font-family="sans-serif" font-size="8" fill="white" text-anchor="middle" opacity="0.5">Create</text>
+    <text x="86" y="78" font-family="sans-serif" font-size="8" fill="white" text-anchor="middle" opacity="0.45">Analyze</text>
+    <text x="86" y="118" font-family="sans-serif" font-size="8" fill="white" text-anchor="middle" opacity="0.4">Apply</text>
+    <text x="86" y="158" font-family="sans-serif" font-size="8" fill="white" text-anchor="middle" opacity="0.35">Remember</text>
+    <!-- AI tutor arrow beside pyramid -->
+    <path d="M145 90 C170 90 170 50 155 30" stroke="url(#be-accent)" stroke-width="1.5" fill="none" opacity="0.4"
+      stroke-dasharray="4 3"/>
+    <polygon points="153,32 157,28 151,26" fill="#00C853" opacity="0.5"/>
+  </g>
+  <!-- "2σ" symbol -->
+  <text x="186" y="242" font-family="serif" font-size="32" font-weight="700" fill="#00C853" opacity="0.15" text-anchor="middle">2σ</text>
+  <!-- Floating student nodes -->
+  <circle cx="45" cy="60" r="8" fill="#00C853" fill-opacity="0.08" stroke="#00C853" stroke-width="0.8" stroke-opacity="0.2"/>
+  <circle cx="330" cy="55" r="8" fill="#7C4DFF" fill-opacity="0.08" stroke="#7C4DFF" stroke-width="0.8" stroke-opacity="0.2"/>
+  <circle cx="40" cy="210" r="6" fill="#7C4DFF" fill-opacity="0.08" stroke="#7C4DFF" stroke-width="0.8" stroke-opacity="0.15"/>
+  <circle cx="340" cy="215" r="7" fill="#00C853" fill-opacity="0.08" stroke="#00C853" stroke-width="0.8" stroke-opacity="0.15"/>
+  <!-- Glow -->
+  <circle cx="186" cy="130" r="65" fill="#00C853" opacity="0.04"/>
+</svg>
